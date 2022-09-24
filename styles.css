@@ -5,6 +5,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #f3dec9;
     margin: 1rem;
+    border: 2px;
 }
 
 header h1 {
@@ -23,7 +24,7 @@ main {
     display: block;
     font-size: larger;
     margin: 1.5rem 0px;
-    font-weight: 600;
+    font-weight: 600; 
 }
 
 .input {
@@ -38,7 +39,37 @@ main {
     border-radius: 0.5rem;
     width: 100%;
     max-width: 325px;
+    
+}
+#initial-price {
     margin: 1rem;
+    background-color: #00546c;
+    padding: 9.6px 16px;
+    margin:  auto;
+    display: block;
+    border-radius: 0.5rem;
+    font-size: large;
+    flex-direction :column; 
+}
+#stocks-quantity {
+    margin: 1rem;
+    background-color: #00546c;
+    padding: 9.6px 16px;
+    margin: auto;
+    display: block;
+    border-radius: 0.5rem;
+    font-size: large;
+    flex-direction :column; 
+}
+#current-price {
+    margin: 1rem;
+    background-color: #00546c;
+    padding: 9.6px 16px;
+    margin: auto ;
+    display: block;
+    border-radius: 0.5rem;
+    font-size: large;
+    flex-direction :column; 
 }
 
 ::placeholder {
@@ -77,29 +108,29 @@ input::-webkit-inner-spin-button {
     margin: 2rem 0;
 }
 
-/* footer */
-
-.footer-text a {
-    text-decoration: none;
-    /* background-color: #00546c; */
-    border: 2px solid #ff5200;
-    padding: 3px;
-    border-radius: 5px;
-    color: #00546c;
+footer{
+   padding-top: 10rem;
 }
 
-.footer-text a:hover {
-    background-color: black;
-    color: white;
-    border: 2px solid #FFFFFF;
-}
 
-/* .link {
-    color: #00546c;
-} */
+
+
 
 @media screen and (max-width: 600px) {
     .input {
         max-width: 275px;
     }
 }
+#socials {
+    display: flex;
+    flex-direction : row;
+    justify-content : space-between;
+    width: 10%;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top: 10px;
+
+    
+   
+  }
+ 
