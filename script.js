@@ -6,9 +6,9 @@ var outputBox =   document.querySelector("#outputbox");
 checkButton.addEventListener("click",submitHandler);
 
  function submitHandler() {
-   var ip = initialPrice.value;
-   var qty = stocksQuantity.value;
-   var curr = currentPrice.value;
+   var ip = Number(initialPrice.value);
+   var qty = Number(stocksQuantity.value);
+   var curr = Number(currentPrice.value);
    caluclateProfitAndLoss(ip , qty , curr);
  }
 
@@ -44,7 +44,7 @@ function caluclateProfitAndLoss(initial , quantity , current) {
     outputBox.innerHTML = message;
  }
  function ChangeColorOfProfit() {
-    document.body.style.backgroundColor = "#fecaca";
+    document.body.style.backgroundColor = "#a3e635";
 }
 function ChangeColorOfLoss() {
     document.body.style.backgroundColor = "#b10000";

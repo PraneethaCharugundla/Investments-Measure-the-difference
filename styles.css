@@ -3,7 +3,7 @@
 body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    background-color: #f3dec9;
+    background-color: white;
     margin: 1rem;
     border: 2px;
 }
@@ -34,8 +34,8 @@ main {
     padding: 0.6rem 1rem;
     margin: 1rem auto;
     border: 2px solid #ff5200;
-    background-color: #00546c;
-    color: #FFFFFF;
+    background-color: #ff5200;
+    color: black;
     border-radius: 0.5rem;
     width: 100%;
     max-width: 325px;
@@ -43,17 +43,18 @@ main {
 }
 #initial-price {
     margin: 1rem;
-    background-color: #00546c;
+    background-color: #ff5200;
     padding: 9.6px 16px;
     margin:  auto;
     display: block;
     border-radius: 0.5rem;
     font-size: large;
     flex-direction :column; 
+    color: black;
 }
 #stocks-quantity {
     margin: 1rem;
-    background-color: #00546c;
+    background-color: #ff5200;
     padding: 9.6px 16px;
     margin: auto;
     display: block;
@@ -63,7 +64,7 @@ main {
 }
 #current-price {
     margin: 1rem;
-    background-color: #00546c;
+    background-color: #ff5200;
     padding: 9.6px 16px;
     margin: auto ;
     display: block;
@@ -72,35 +73,26 @@ main {
     flex-direction :column; 
 }
 
-::placeholder {
-    color: gainsboro;
-    opacity: 10;
-}
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
+
+
 
 #check-btn {
-    background: #ff5200;
+    background: black;
     border: none;
-    color: #fff;
+    color: white;
     padding: 0.7rem 1rem;
     border-radius: 0.5rem;
     font-size: large;
     cursor: pointer;
     outline: #fff;
-    margin: auto;
+    /* margin: auto; */
     display: block;
+    margin-top: 1rem;
+    margin-left:auto;
+    margin-right: auto;
 }
 
-#check-ubmit-btn:hover {
-    background-color: black;
-    color: white;
-    border: 2px solid #FFFFFF;
-}
 
 .output {
     font-size: large;
@@ -133,4 +125,8 @@ footer{
     
    
   }
+  a {
+    margin-right: 1rem;
+  }
+
  
